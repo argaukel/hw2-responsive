@@ -1,0 +1,94 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+  }
+/* header div - applies to only divs inside the header */
+
+body {
+      background-image: url("images/light-grey-terrazzo.png");
+      /* background-size: cover; */
+      /* for portfolio page */
+      background-repeat: repeat;
+      background-color: darkgray;
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0%;
+      padding: 0%;
+  }
+
+
+
+nav {
+  margin-top: 10px;
+  font-size: 24px;
+  
+}
+
+nav a {
+  text-decoration: none;
+  padding-left: 10px;
+}
+
+
+#full {
+        clear: both;
+        overflow: auto;
+        background-color: snow;
+        /* position: relative; */
+        width: 960px;
+        height: auto;
+        margin: auto;
+        margin-top: 20px;
+        /* padding-left: 20px; */
+
+        }      
+
+.title {
+    background-color: snow;
+    padding-left: 25px;
+     /* position: relative;  */
+     /* float: left;  */
+    width: 960px;
+    border-bottom: 3px solid gray;
+    margin-bottom: 20px;
+}  
+
+    
+
+img {
+  /* position: relative; */
+  float: left;
+  max-height: 250px;
+  max-width: 250px;
+  /* height: 30%;
+  width: 30%; */
+  margin: 10px;
+  margin-top: 0;
+  /* background-color: #gray; */
+}
+
+@media screen and (max-width: 640px){
+  section{
+    width: 100%;
+  }
+
+  img {
+    width: 100%;
+    height: initial;
+  }
+}
+
+
+
+
+footer {
+  position: fixed;
+  /* left: 0; */
+  bottom: 0;
+  height: 60px;
+  width: 100%;
+  border: 1px solid #cccccc;
+  background-color: #ffffff;
+  color: gray;
+  text-align: center;
+}
+
+

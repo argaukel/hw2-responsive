@@ -1,0 +1,44 @@
+header {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #ffffff;
+    height: 80px;
+    padding: 10px;
+    padding-right: 16%;
+    border: 1px solid #cccccc;
+    text-align: right;
+    /* margin-top: -20px; */
+    margin-right: 0%;
+    margin-left: 0%;
+    width: 100%;
+    
+    }
+
+    .logo {
+        position: fixed;
+        top: 0%;
+        padding: 10px;
+        padding-top: 15px;
+        float: left;
+        margin-left: 15%;
+        background-color:teal;
+        color: white;
+        height: 80px;
+        font-size: 36px;
+      /* position: absolute; */
+        /* margin-top: 0; */
+        /* padding-left: 10px;
+        padding-right: 10px; */
+        /* a whole new section w/ both <div> h1 logo and <div>nav elements */
+    }
+
+    /* example uses header as logo an h1 as nav */
+    @media screen and (max-width: 640px) {
+        header div {
+            background-color: pink;
+            width: 100%;
+        }
+        header h1 {
+            width: 100%;
+            text-align: center;
+        }
+    }
