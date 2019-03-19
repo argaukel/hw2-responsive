@@ -3,23 +3,53 @@
 @media only screen and (max-width: 640px) {
 #masthead {
     position: static;
-    
+    margin-bottom: 5px;
 }
+
+#logo {
+    float: left;
+    width: 100%;
+    }
+nav {
+   float: left;
+    width: 100%;
+    margin-top: 5px;
+    padding-left: 15%;
+    }
+#main-container {
+    padding-top: 0;
+    }
+h1 {
+    text-align: center;
+    }
+.main-section {
+        padding: 0 15px 0 15px;
+        
+      }
+
+
+.auth-image {
+        float: left;
+        width: 100%;
+        height: auto;
+        margin: 0 0 0 0;
+      }            
+
 }
 
 @media only screen and (max-width: 768px) {
     body {
-        /* max-width: 768px; */
     }
     
     #masthead {
-        /* max-width: 768px; */
-        
     }
 
-    .container {
-        /* max-width: 768px; */
+    .container {   
       }
+nav {
+    margin-right: 5;
+}
+
 
 }
 
