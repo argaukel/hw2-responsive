@@ -4,36 +4,49 @@
 #masthead {
     position: static;
     margin-bottom: 5px;
-}
+    }
 
 #logo {
     float: left;
     width: 100%;
     }
-nav {
+
+    nav {
    float: left;
     width: 100%;
     margin-top: 5px;
     padding-left: 15%;
     }
-#main-container {
+
+    #main-container {
     padding-top: 0;
     }
-h1 {
+
+    h1 {
     text-align: center;
     }
-.main-section {
-        padding: 0 15px 0 15px;
-        
+
+    .main-section {
+        padding: 0 15px 0 15px;        
       }
 
-
+/* about me */
 .auth-image {
         float: left;
         width: 100%;
         height: auto;
         margin: 0 0 0 0;
       }            
+/* portfolio */
+.work {
+    width: 100%;
+}
+
+/* contact */
+#contact-form ul {
+    margin-bottom: 20px;
+    padding-left: 5px;
+  }
 
 }
 
@@ -47,7 +60,7 @@ h1 {
     .container {   
       }
 nav {
-    margin-right: 5;
+    margin-right: 5%;
 }
 
 
